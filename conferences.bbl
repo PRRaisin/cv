@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{Self-optimizing}
+Ryser, M., Bacher, C., \textbf{Raisin}, P., Paardekooper, D., Feurer, T., and
+  Romano, V.
+\newblock {Self-optimization and oscillation state mapping of polarization
+  additive pulse mode-locked fiber laser }.
+\newblock In {\em {Conference on Lasers and Electro-Optics (CLEO)}}, San Diego,
+  USA, 2017.
+
+\bibitem{ISS}
+\textbf{Raisin}, P., Ryser, M., Romano, V., and Feurer, T.
+\newblock {Towards an intrinsically stable all-fiber low-power broadband source
+  at 1 um }.
+\newblock In {\em {Europhoton}}, Vienna, Austria, 2016.
+
+\bibitem{GD}
+\textbf{Raisin}, P., Frey, D., and Michler, J.
+\newblock {Easy CRM selection software for GD-OES }.
+\newblock In {\em {GD-Day}}, Paris, France, 2012.
+
+\end{thebibliography}
