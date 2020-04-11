@@ -1,0 +1,231 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default) and 'classic' 
+\moderncvcolor{black}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+%\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.85]{geometry}
+
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+
+% german umlauts
+\usepackage[ngerman]{babel}
+%\renewcommand*{\namefont}{\fontsize{34}{40}\mdseries\upshape}
+
+%\usepackage{apalike}
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+%\newcites{patent,talks,conferences}{{Patents},{Talks},{Conference proceedings}}
+%\newcites{patent, articles, talks,conferences}{{Patents},{Journal papers},{Talks},{Conference proceedings}}
+\newcites{patent,articles,talks,conferences}{{Patents},{Peer-reviewed papers},{Talks},{Conference proceedings}}
+%\newcites{patent,submitted,talks,conferences}{{Artikel mit Peer-review},{Artikel in Begutachtung},{Buchkatpitel},{Konferenzbeiträge}}
+\usepackage{SIunits}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+%% Personal data
+\firstname{Philippe\\Richard}
+\familyname{Raisin}
+\social[linkedin]{praisin}
+\title{4.6.1991, Nationality: Swiss}
+\address{Baaderstrasse 68}{80469 Munich, Germany}
+\photo[120pt][0pt]{foto_CV}
+\email{philippe.raisin@icloud.com}
+\mobile{+49 160 930 399 18}
+
+%\mobile{+4179 901 04 06}
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}\makecvtitle
+
+\section{Education}
+\cventry{Sep. 2017}{MSc Physics}{University of Bern}{}
+{Switzerland}{Summa Cum laude (grade : 5.83/6)}
+%\cventry{2012-2015}{BSc Physics (Minor in Mathematics)}{University of Bern}{Switzerland}{}{Magna Cum Laude (grade: 5.09/6)}
+\cventry{2015}{BSc Physics (Minor in Mathematics)}{University of Bern}{Switzerland}{}{Magna Cum Laude (grade: 5.09/6), first year completed at ETH Zurich, Switzerland (grade: 5.00/6)}
+%\cventry{2010-2011}{First year of BSc in Physics}{ETH Zurich}{Switzerland}{}{grade: 5.00/6} 
+\cventry{2010}{High School Diploma}{Gymnasium Thun-Schadau}{}{Switzerland}{\textit{awards for best thesis and top GPA (grade: 5.68/6)}} 
+
+\section{Experience}
+
+\cventry{May 2018 - ongoing}{TFE Energy GmbH, Munich}{Product manager}{}{}
+{As part of a multinational team, I am leading the product development of Village Data Analytics (VIDA), a software supported by the European Space Agency (ESA). VIDA is an AI-powered, automated satellite imagery analysis tools to characteriste un-electrified rural African villages. The goal of this decision making tool is to help end energy poverty for the +1bn people who do not have access to adequate energy. www.villagedata.io\\
+Tasks:
+\begin{itemize}
+\item Communication with ESA and technical partners
+\item Coordinating technical development and manage initial customers
+\item Regular communication with actors in the renewable energy sector in Asia and Africa as well as satellite imagery analysis companies worldwide
+\item Travels to Africa and South Asia to develop partnerships
+\end{itemize}
+Apart from these duties, I also work on consulting projects both with German as well as international companies and organisations around energy access and renewable value chains.
+}
+
+\cventry{May 2018 - ongoing}{8photonics, Bern}{Co-founder}{}{}
+{I work with a start-up which offers a modular platform to prototype and build novel lasers. The product is sold to research labs and laser companies. At the heart of this start-up is a patented technology which I developed during my master's thesis. I advise the team on marketing, tech development and strategy. www.8photonics.com \\
+}
+
+\cventry{Jun. 2017 - Dec. 2017}{ARTORG Center for Biomedical Engineering Research (University of Bern)}{Student researcher}{}{}
+{Implemented deep learning strategies in Python to estimate the applied energy during selective retina therapy (SRT) treatment from direct M-scan optical coherence tomography (OCT) data. \\
+Tasks:
+\begin{itemize}
+\item Statistic characterization, filtering and annotation of a large multi-parameter experimental dataset
+\item Formulation of deep learning task for a highly explorative project and choice of appropriate neural network architectures 
+\item Implementation and performance analysis of CNNs in Keras/Tensorflow in Python on a state-of-the-art GPU cluster using Docker
+\end{itemize}
+}
+
+\cventry{Dec. 2014 - Oct. 2017}{AME Ltd.}{Co-founder}{}{}{Startup company developing polymer optics for Terahertz radiation.
+Key duties:
+\begin{itemize}
+\item Setting up and operating a state-of-the-art Terahertz time-domain spectrometer (THz-TDS) laser experiment for R\&D projects
+\item Scientific data analysis in Python and LabVIEW, reviewing simulation results and mechanical designs
+\item Communication with customers, shipping agents, sponsors, university officials and research groups
+\item Co-authoring grant applications, market reports, product data sheets and giving scientific and outreach talks 
+\end{itemize}
+}{}{} 
+\cventry{April 2015-February 2017}{Laser Physics Division, Institute of Applied Physics (University of Bern)}{Master thesis }{}{}{Development of an intrinsically stable, broadband fiber laser source around 1um for high-fidelity metrology. 
+Tasks:
+\begin{itemize}
+\item Numerical simulation of a fiber laser optimized towards having a highly stable power output over time 
+\item Development of a novel framework for setting up fiber laser experiments in a controlled laboratory environment (patent pending) 
+\item Time-series analysis in Matlab to quantify the long-term stability of the laser
+\item Presentation of the results at an international conference and lead author of a market research report detailing the viability of the developed technology for commercialization. This also involved working directly with patent attorneys and the office for technology transfer at University of Bern. Granted funding to submit a patent application.
+\end{itemize}}
+
+\cventry{Oct. 2016 - Dec. 2016}{APRI Advanced Photonics Research Institute, Gwangju Institute of Science and Technology (South Korea)}{Student researcher}{}{}
+{Feasibility study for manufacturing of all-fiber pump strippers for high-power fiber lasers used in laser based manufacturing, space- and defence applications.
+Performed tasks:
+\begin{itemize}
+\item In-depth review of existing literature on the topic and decision on the best technology to manufacture the desired laser components
+\item Commission and verification measurements of initial batch of components manufactured with a custom-built CO2 laser ablation system by a major Korean fiberoptics company
+\item LabVIEW programming of an optical fiber characterization imaging device including implementation of a clustering algorithm for efficient image processing
+\end{itemize}}
+
+\cventry{Jan. 2013 - Jun. 2014}{Laser Physics Division, Institute of Applied Physics (University of Bern)}{Student researcher}{}{}
+{\begin{itemize}
+\item Design and testing of a low-cost, easy-to-use all-in fiber device for ultrashort laser-pulse monitoring. The main tasks were:
+\begin{itemize}
+\item Improving the electrical and mechanical design of the detector and specifying the delivery optics
+\item Working with state-of-the-art ultrafast laser to test the device, including hands-on software development in LabVIEW to control the lab equipment and automate the testing procedure as well as data analysis in Matlab
+\end{itemize}
+\item Design and operation of a high-precision refractive index mapping instrument for quality control of prototypes of novel optical fibers. Duties and outcomes:
+\begin{itemize}
+\item Development of instrument and analysis software in LabVIEW/Matlab
+\item Defining calibration procedure for reproducible measurements
+\item Analysis of specialty samples for various international partner laboratories
+\end{itemize}
+\item Presenting work on numerous professional and outreach events and guiding visiting groups around the laboratories
+\end{itemize}
+}
+\cventry{Jul. - Aug. 2013}{Empa, Laboratory for Mechanics of Materials and Nanostructures (Switzerland)}{Student researcher}{}{}
+{Design and implementation of a multi-sample stage for X-ray diffraction (XRD) measurement automation. 
+Duties:
+\begin{itemize}
+\item CAD design of a sample stage according to instrument constraints and needs from users
+\item Development of automation software in C\# and LabVIEW for the XRD instrument
+\end{itemize}}
+
+\cventry{Jan. - Aug. 2012}{Empa, Laboratory for Mechanics of Materials and Nanostructures (Switzerland)}{Intern}{}{}{
+Main tasks:
+\begin{itemize}
+\item Analysis of experimental thin-film as well as bulk samples on a state of the art glow-discharge optical emission spectroscopy (GD-OES) instrument.
+\item Development of a database software for simplified calibration of said instrument using LabVIEW and SQL. The software was presented on an international research conference
+\end{itemize}
+}
+\section{Skills}
+\cvitem{Programming}{Python (Deep learning: Keras/TF), Matlab, LabVIEW, C++ (basics), git, \LaTeX }
+%\cvitem{Visualization}{Matplotlib, ParaView}
+\cvitem{Modelling tools}{QGIS, Autodesk Inventor, RP Fiber Power, Lumerical MODE \& Interconnect}
+\cvitem{certified MOOCs}{CSMM.102x: Machine Learning (ColumbiaX); Phot1x: Silicon Photonics Design, Fabrication and Data Analysis (UBCx)}%\cvitemwithcomment{programming languages}{C, C++, C-sharp (basic knowledge)
+
+\section{Languages}
+\cvitem{Native}{German}
+\cvitem{Fluent}{English - CAE C1 (grade: A)}
+\cvitem{Intermediate}{French - B2}
+\cvitem{Basic}{Spanish}
+%\newpage
+\section{Outreach, competitions \& projects (selection)}
+
+\cventry{2018}{Session at the Renewable Energy India Expo 2018}{Greater Noida, India}{}{}{At TFE Energy, I was responsible for organizing a session titled \textit{Embracing Digitalisation of Energy through Data an Technology} at Indias largest Renewable Energy Fair. Speakers were from IABG, IBM, ABB and Climate-Connect}
+
+\cventry{2017}{Blog post on 3D printing for atmospheric remote sensing instrumentation}{}{}{}{Project involved development and testing of a 3D printed calibration target for atmospheric sciences with AME Ltd. and University of Bern.
+\url{https://formlabs.com/blog/building-the-next-generation-of-calibration-units-with-3d-printing}}
+
+\cventry{2016}{CTI Outreach Talk on Entrepreneurship}{University of Bern}{}{}{Co-speaker on behalf of AME Ltd. to advertise for on-campus entrepreneurship, supported by the Swiss Federal Commission for Technology and Innovation (CTI)}
+
+\cventry{2015}{CTI Entrepreneurship course}{University of Bern}{}{}{Co-speaker at one lecture on financing and business planning on behalf of AME Ltd. in the framework of the CTI Entrepreneurship Training}
+\cventry{2015}{Bernese Business Creation Competition}{organized by the Institute for Marketing and Management, University of Bern}{}{}
+{Awarded first prize in business plan competition with AME Ltd., involved writing of a business plan as well as a public talk}
+
+\cventry{2015}{Awarded funding for AME Ltd. under the NCCR MUST Industrial project programme}{}{}{}{Successful application for seed funding for AME Ltd. awarded by one of the Swiss National Centres of Competence in Research (NCCR). Project name: \textit{Low-cost additive manufacturing of polymeric components for THz applications: LAMPTA}}
+
+\cventry{2014}{160kW solar power system}{Gymnasium Schadau, Thun}{}{}{Successfully initiated a project to install a rooftop solar power system (>1000$\text{m}^2$, 160kW) powering my former high school}
+
+\cventry{2010}{Schweizer Jugend Forscht (national youth science competition)}{hosted by University of Basel, Switzerland}{}{}{Thesis title: \textit{Sulfur-deprivation induced photo-biological production of hydrogen gas in the unicellular green algae Chlamydomonas reinhardtii}, supported by the Swiss Federal Institute of Aquatic Science and Technology (eawag)}
+
+\section{Research output}
+\nocitepatent{*}
+\bibliographystylepatent{plainyr_gh}
+\bibliographypatent{patent.bib}      
+
+
+%\setcounter{enumiv}{0}
+\nocitearticles{*}
+\bibliographystylearticles{plainyr_gh}
+\bibliographyarticles{articles.bib}
+
+
+% 'publications' is the name of a BibTeX file
+%\bibliography{paper}
+%\setcounter{enumiv}{0}
+\nocitetalks{*}
+\bibliographystyletalks{plainyr_gh}
+\bibliographytalks{talks.bib}    
+
+\setcounter{enumiv}{0}
+\nociteconferences{*}
+\bibliographystyleconferences{plainyr_gh}
+\bibliographyconferences{conferences.bib}    
+
+
+\section{References}
+
+\begin{itemize}
+\item \textbf{Prof. Dr. Raphael Sznitman},\\
+Group Head, Ophthalmic Technology Laboratory\\
+ARTORG Center for Biomedical Engineering Research\\
+University of Bern\\
+Murtenstrasse 50, 3008 Bern\\
+Switzerland\\
+raphael.sznitman@artorg.unibe.ch
+
+\item \textbf{Prof. Dr. Thomas Feurer},\\
+Head of Laser Division\\ 
+Institute of Applied Physics\\
+University of Bern\\
+Sidlerstrasse 5, 3012 Bern\\
+Switzerland\\
+feurer@iap.unibe.ch
+
+\item \textbf{Dr. Johann Michler},\\
+Head of Department\\
+Empa, Laboratory for Mechanics of Materials and Nanostructures\\
+Feuerwerkerstrasse 39, 3600 Thun\\
+Switzerland\\
+johann.michler@empa.ch
+
+\end{itemize}
+
+
+
+\end{document}
+
